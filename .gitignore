@@ -1,0 +1,5 @@
+# exlude files which ended with .swap
+*.swp
+
+# exclude directories which started with __pycache__
+__pycache__/
