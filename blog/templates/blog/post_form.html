@@ -6,18 +6,13 @@
 		{% csrf_token %}
 		<fieldset class='form-group'>
 			<legend class="border-botttom mb-4">
-			Join Today
+			Blog Post
 			</legend>
 			{{ form|crispy }}
 		</fieldset>
 		<div class="form-group">
-			<button class="btn btn-outline-info" type="submit">Sign Up</button>
+			<button class="btn btn-outline-info" type="submit">Post </button>
 		</div>
 	</form>
-	<div class="border-top pt-3">
-		<small class="text-muted">
-			Already have An Account?<a class="ml-2" href="{% url 'login' %}">Sign In</a>
-		</small>
-	</div>
 </div>
 {% endblock content %}
